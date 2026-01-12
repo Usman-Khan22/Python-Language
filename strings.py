@@ -4,6 +4,10 @@ string = "Hello Hello!!!"
 
 print(len(name))  # len(string) returns the length of the string.
 
+print("my age is", 19)
+
+print(name + " " + string)  # Concatenation
+
 # PRINTING/ACCESSING EACH CHARACTER OF A STRING:
 for character in name:
     print(character)
