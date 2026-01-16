@@ -64,6 +64,12 @@ isGreater(a,b)
 
 # RETURN:
 def sum(a,b):
+    """
+    Docstring for sum
+                                        
+    returns the sum of two numbers      
+    """
     return a+b      #returns the sum
 c = sum(a,b)
 print(c)
+print(sum.__doc__)      # DOCSTRING
